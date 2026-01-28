@@ -4,7 +4,6 @@ import { HeroSection } from './components/HeroSection';
 import { ProjectsSection } from './components/ProjectsSection';
 import { BlogSection } from './components/BlogSection';
 import { ContactSection } from './components/ContactSection';
-import { TerminalChat } from './components/TerminalChat';
 import { Section } from './types';
 import { AnimatePresence, motion } from 'framer-motion';
 
@@ -39,7 +38,6 @@ const App: React.FC = () => {
           {renderSection()}
         </motion.div>
       </AnimatePresence>
-      <TerminalChat />
     </Layout>
   );
 };
